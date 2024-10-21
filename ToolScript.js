@@ -41,7 +41,7 @@ function startCountdown(hoursId, minsId, counter) {
         document.getElementById(hoursId).innerText = remainingMinutes;
         document.getElementById(minsId).innerText = remainingSeconds < 10 ? '0' + remainingSeconds : remainingSeconds;
 
-        // Update the state variables after each decrement
+       
         if (counter === 1) {
             remainingMinutes1 = remainingMinutes;
             remainingSeconds1 = remainingSeconds;
