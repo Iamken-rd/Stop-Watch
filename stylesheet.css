@@ -1,0 +1,94 @@
+*{
+    
+    font-family: "Calligraffitti", cursive;
+  font-weight: 900;
+  font-style: bolder;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+body{
+    background-image: url(/img/Background.png.png);
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+.container1{
+    margin-top: 5%;
+    
+}
+
+button{
+    border-style: none;
+    background-color: rgb(243, 235, 235);
+    border-radius: 25px;
+    margin: 20px;
+}
+
+span{
+    cursor: pointer;
+}
+
+img{
+    height: 300px;
+    border-radius: 50%;
+    padding: 50px;
+    cursor: pointer;
+    
+}
+
+
+option{
+    font-size: larger;
+}
+
+.VamosHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.timeDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.Header1{
+    font-weight: bolder;
+    
+}
+
+.rx { transform: rotateX(60deg); }
+.ry { transform: rotateY(60deg); }
+.rz { transform: rotateZ(60deg); }
+
+@keyframes spin {
+  from { transform: rotate(0deg) }
+  to { transform: rotate(360deg) }
+}
+.spin { animation: spin 3s linear infinite; }
+
+@keyframes spin3D {
+  from { transform: rotateY(0deg) }
+  to { transform: rotateY(360deg) }
+}
+.spin3D { animation: spin3D 3s ease-in-out infinite; }
+
+
+.spinh:hover { animation: spin3D 2s ease 1; }
+
+.demo {
+  width: 300px; height:300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.VamosHeader1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+}
